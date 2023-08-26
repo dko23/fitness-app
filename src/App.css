@@ -1,5 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css2?family=REM&family=Roboto:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 .App {
   text-align: center;
+  /* font-family: 'REM', sans-serif; */
+  background-color: bisque;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +41,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bmi{
+  border: 2px, solid, black;
+  color: blue;
+}
+
+.container{
+ 
+}
+.pic{
+  border-radius: 50px 0;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+}
+.logo{
+  border-radius: 50px;
+  width: 80px;
+  height: auto;
+}
+
+.nav-item{
+
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.train{
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-form{
+  background-color: white;
+  border-radius: 5px;
+}
+.chart{
+  background-color: white;
+  border-radius: 40px;
+}
+.row-list{
+  border: 2px, solid, black;
+  background-color: white;
+  
+}
+
+
+.card{
+  border: 2px, solid, black;
+  display: flex;
+  justify-content: space-between;
+}
+.progress-list{
+  margin-top: 40px;
+}
+.progress-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.progress-card {
+  width: calc(50% - 10px); /* Adjust the width of each card */
+  margin-bottom: 20px; /* Add some margin between cards */
 }
